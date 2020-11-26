@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Teste monetizze</title>
+</head>
+
+<body>
+
+    <form>
+        <label for="qtdDezenas">Dezenas</label>
+        <select id="qtdDezenas">
+            <option value="6">6</option>
+            <option value="6">7</option>
+            <option value="6">8</option>
+            <option value="6">9</option>
+            <option value="6">10</option>
+        </select>
+
+        <label for="totalGames">Total de Jogos</label>
+        <input type="number" id="totalGames" />
+
+        </label>
+
+        <button type="button" id="btnGenerate">Gerar</button>
+
+    </form>
+    <br />
+    <div id="result"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script defer src="js/script.js"></script>
+</body>
+
+</html>
